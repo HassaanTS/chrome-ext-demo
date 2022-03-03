@@ -1,15 +1,16 @@
 {
     "manifest_version": 2,
-    "name": "Acho, where are we?",
+    "name": "Github Table Summary",
     "version": "0.1.0",
-    "description": "Ask Acho where you are and he'll bark the page title at you.",
+    "description": "Calculate the total size of beat objectives and generate a summary",
     "browser_action": {
         "default_popup": "popup.html",
         "default_icon": {
-            "16": "icon.png"
+            "16": "assets/icon.png"
         }
     },
     "permissions": [
+        "*://github.com/*/*",
         "tabs"
     ]
 }
