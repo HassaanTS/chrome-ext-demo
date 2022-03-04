@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Github Table Summary</title>
+    <link href="popup.css" rel="stylesheet" type="text/css" />
+  </head>
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Github Table Summary</title>
-        <link href="popup.css" rel="stylesheet" type="text/css" />
-    </head>
-    
-    <body>
-    
-        <script src='popup.js'></script>
-    
-        
-        <div id="container">
+  <body>
+    <script src="src/popup.js"></script>
 
-            <h1 id="text">
-              <span>Beat Summary</span>
-              <br/>
-              <span></span>
-            </h1>
+    <div id="container">
+      <button id="sort">▲</button>
+      <h1 id="text">
+        <span>Beat Summary</span>
+        <br />
+        <span></span>
+      </h1>
 
-            <br/><br/><br/>
+      <br /><br /><br />
 
-            <div>
-                <bold>
-                    <p id="beat-size"></p>
-                </bold>
-                
-            </div>
+      <div>
+        <bold>
+          <p id="beat-size"></p>
+        </bold>
+      </div>
 
-            <br/><br/><br/>
+      <br /><br />
 
-            <div id="beat-stats">
-            </div>
-            
-        </div>
-        
-    </body>
-    
+      <div id="beat-stats">
+        <table>
+          <tr>
+            <td id="repo"></td>
+            <td id="type"></td>
+            <td id="status"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
 </html>

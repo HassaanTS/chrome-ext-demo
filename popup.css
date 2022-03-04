@@ -1,34 +1,40 @@
 #container {
-    width: 100%;
-    display: flex;
-    overflow: auto;
-    min-height: 100vh;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 #text {
-    top: 0px;
-    position: absolute;
-    align-self: center;
-    line-height: 1.5;
-}
- #beat-stats {
-    height: 464px;
-    align-self: stretch;
-    font: 1rem 'Fira Sans', sans-serif;
-    margin-left: 1rem;
+  top: 0px;
+  position: absolute;
+  align-self: center;
+  line-height: 1.5;
 }
 #beat-size {
-    text-align: center;
-    font-size: medium;
-    font-weight: bold;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+}
+#sort {
+  top: 12px;
+  left: 26px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  font-weight: bold;
+  font-size: large;
 }
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
-th, td {
-    padding: 15px;
-    text-align: left;
+th,
+td {
+  padding: 15px;
+  text-align: left;
 }
-tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
