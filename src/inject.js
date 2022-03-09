@@ -94,7 +94,9 @@ const makeSummary = () => {
   );
   typeStats = countBy(findBubbleValues(rows, typeIndex));
   statusStats = countBy(findBubbleValues(rows, statusIndex));
-  repoStats = countBy(findValues(rows, repoIndex, false));
+  repoStats = countBy(findValues(rows, repoIndex, false).filter(element => {
+    return element !== undefined;
+  }));
 
   //summary building
   summary["sizeStats"] = sizeStats;
