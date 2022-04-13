@@ -1,4 +1,4 @@
-### Chrome Extension Demo   
+### Chrome Extension Demo     
 
 This is a simple chrome extension made by following a bunch of tutorials and sticking bits of code from the internet together.
 
